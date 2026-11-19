@@ -1,9 +1,9 @@
-import java.util.Scanner;
+import java.util.Scanner; // Importacion de la variable escaner
 
-public class cobro_restaurante {
-    public static void main (String[] args) {
-        Scanner a=new Scanner(System.in);
-        double propina;
+public class cobro_restaurante { // Inicio del programa
+    public static void main (String[] args) { // Inicio del metodo
+        Scanner a=new Scanner(System.in); // Declaracion de la variable escaner
+        double propina; // Declaracion 
         double consumo;
         double cantidadApagar;
         double consumoPorpersona;

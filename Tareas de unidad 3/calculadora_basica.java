@@ -53,7 +53,8 @@ public class calculadora_basica { // Creamos la clase.
                 System.out.print("Debes de escoger una opcion del 1 - 5"); // Salida
                 break; // Ruptura
 
-
-        }
-    }
-}
+            
+        } // Fin del switch
+        e.close(); // Cierre de la variable de lectura
+    } // Fin del metodo
+} // Fin del programa

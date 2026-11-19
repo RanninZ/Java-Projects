@@ -18,6 +18,6 @@ public class cifras { // Crear el archivo.
         } else if (x>99 && x<1000){ // Tercera condicional 
             System.out.print("El numero es de 3 digitos."); // Salida.
         }
-        e.close();
-    }
-}
+        e.close(); // Cierre de la variable de lectura
+    } // Fin del metodo
+} // Fin del programa
