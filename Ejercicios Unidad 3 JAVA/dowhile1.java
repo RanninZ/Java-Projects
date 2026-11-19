@@ -1,19 +1,19 @@
 /*Problema 1: Obligar al usuario a ingresar un numero mayor a cero, repitiendo la petición si se equivoca */
 
-import javax.swing.JOptionPane;
+import javax.swing.JOptionPane; // Importamos la liberia de lectura
 
 
-public class dowhile1 {
-    public static void main(String[] args){
-        String a_str;
-        int a;
-        do{
-            a_str= JOptionPane.showInputDialog(null, "Ingresa el numero positivo");
-            a = Integer.parseInt(a_str);
-            if(a<=0){
-                JOptionPane.showMessageDialog(null, "Error, numeo invalido");
+public class dowhile1 { // Inicio del programa
+    public static void main(String[] args){ // Inicio del metodo
+        String a_str; // Variable de cadena
+        int a; // Variable real entera
+        do{ // Hacer esto mientra a sea igual o menor que 0
+            a_str= JOptionPane.showInputDialog(null, "Ingresa el numero positivo"); // Salida
+            a = Integer.parseInt(a_str); //Entrada
+            if(a<=0){ // Si a es menor o igual a 0
+                JOptionPane.showMessageDialog(null, "Error, numero invalido"); // Salida
 
-            }
-        }while(a<=0);
-    }
-}
+            } // Fin de la condicional
+        }while(a<=0); // Fin del ciclo
+    } // Fin del metodo
+} // Fin del programa

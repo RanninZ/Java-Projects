@@ -9,47 +9,47 @@
  Si es si, cuesta $800USD; si es no, cuesta $500USD*/
 
 
-import java.util.Scanner;
+import java.util.Scanner; // Importamos la liberia de lectura
 
 
-public class anidada {
-    public static void main(String [] args){
-        Scanner e = new Scanner(System.in);
-        System.out.println("--- COTIZADOR DE SEGUROS ---");
-        System.out.println("Digite su edad en años:" );
-        int edad = e.nextInt();
-        if (edad<25){
-            System.out.print("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No ");
-            int res = e.nextInt();
-            while (res != 1 && res != 2){
-                System.out.print("Error, los digitos no son correctos, intente de nuevo");
-                System.out.println("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No ");
-                res = e.nextInt();
-            }
-            if (res == 1){
-                System.out.print("Su costo de poliza sera: $1,500USD");
+public class anidada { // Inicio del programa
+    public static void main(String [] args){ // Inicio del metodo
+        Scanner e = new Scanner(System.in); // Declaracion de la variable de lectura
+        System.out.println("--- COTIZADOR DE SEGUROS ---"); // Salida (titulo)
+        System.out.println("Digite su edad en años:" ); // Salida
+        int edad = e.nextInt(); // Entrada
+        if (edad<25){ // Si edad es menor a 25
+            System.out.print("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No "); // Salida
+            int res = e.nextInt(); // Entrada
+            while (res != 1 && res != 2){ // Mientras que la respuestas no sea 1 y no sea 2
+                System.out.print("Error, los digitos no son correctos, intente de nuevo"); // Salida
+                System.out.println("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No "); // Salida (repetida)
+                res = e.nextInt(); // Entrada (repetida)
+            } // Fin del ciclo
+            if (res == 1){ // Si el resultado es igual a 1 
+                System.out.print("Su costo de poliza sera: $1,500USD"); // Salida
 
-            } else {
-                System.out.print("SU costo de poliza sera: $1,000USD");
+            } else { // Si el resultado es igual a 2
+                System.out.print("SU costo de poliza sera: $1,000USD"); // Salida
 
-            }
-        } else { 
-            System.out.println("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No ");
-            int res = e.nextInt();
-            while (res != 1 && res != 2){
+            } // Fin de la condicional anidada
+        } else {  // Si no es menor a 25
+            System.out.println("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No "); // Salida
+            int res = e.nextInt(); // Entrada
+            while (res != 1 && res != 2){// Misma validacion
                 System.out.print("Error, los digitos no son correctos, intente de nuevo");
                 System.out.print("¿Alguna vez ha tenido algún accidente?: \n [1]Si \n [2]No ");
                 res = e.nextInt();
-            }
-            if (res == 1){
-                System.out.print("Su costo de poliza sera: $800USD");
+            } // Fin del ciclo
+            if (res == 1){ // Si resultado es igual a 1
+                System.out.print("Su costo de poliza sera: $800USD"); // Salida
 
-            } else {
-                System.out.print("SU costo de poliza sera: $500USD");
+            } else { // Si el resultado es igual a 2
+                System.out.print("SU costo de poliza sera: $500USD"); // Salida
 
-            }
-        }  
-        e.close();  
-    }  
+            } // Fin de la condicional anidada
+        }  // Fin de la condicional
+        e.close(); // Cierre de la variable de lectura
+    } // 
 
 }
