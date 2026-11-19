@@ -8,20 +8,25 @@ public class juego{ // Inicio del programa
     public static void main(String[] args){ // Inicio del metodo
         String a_str; // Declaramos la variable de cadena
         int n = 67, a, i=0; // Declaramos la variable secreta, la de ingreso y los intentos
-        do{
+        do{ // Hacer mientras a no sea igual a n
+            // Salida
             a_str = JOptionPane.showInputDialog(null, "Intenta adivinar el numero...", "Adivina adivinador", JOptionPane.QUESTION_MESSAGE);
-            a = Integer.parseInt(a_str);
-            if(a<n){
+            a = Integer.parseInt(a_str); // Entrada
+            if(a<n){ // Si a es menor que n
+                // Salida
                 JOptionPane.showMessageDialog(null, "El numero que ingresaste es menoooor", "Adivina adivinador", JOptionPane.INFORMATION_MESSAGE);
-            }else if(a>n){
+            }else if(a>n){ // Si a es mayor que n
+                // Salida
                 JOptionPane.showMessageDialog(null, "El numero que ingresaste es mayooor", "Adivina adivinador", JOptionPane.INFORMATION_MESSAGE);
 
-            }
-            i++;
-        }while(a!=n);
+            } // Fin de la condicional
+            i++; // Incremento de la variable i
+        }while(a!=n); // Fin del ciclo
+        // Salida
         JOptionPane.showMessageDialog(null, "67676767676767 ", "Adivina adivinador", JOptionPane.INFORMATION_MESSAGE);
+        // Salida
         JOptionPane.showMessageDialog(null, "La cantidad de intentos fueron de: "+i);
         
 
-    }
-}
+    } // Fin del metodo
+} // Fin del programa

@@ -30,5 +30,5 @@ public class triangulos { // Iniciamos el programa
         // Salida final
         JOptionPane.showMessageDialog(null, "La cantidad de triangulos que superaron en su superficie 12 son: "+at, "Triangulos", JOptionPane.INFORMATION_MESSAGE);
         
-    }
-}
+    } // Fin del metodo
+} // Fin del programa

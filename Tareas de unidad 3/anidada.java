@@ -50,6 +50,6 @@ public class anidada { // Inicio del programa
             } // Fin de la condicional anidada
         }  // Fin de la condicional
         e.close(); // Cierre de la variable de lectura
-    } // 
+    } // Fin del metodo
 
-}
+} // Fin del programa

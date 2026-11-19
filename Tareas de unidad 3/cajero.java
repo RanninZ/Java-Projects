@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // Importacion de la variable de lectura
 
 //Cajero con límite de retiro. El usuario ingresa un saldo inicial y luego hace 5 retiros. 
 // En cada uno, si el retiro es mayor al saldo muestra “Fondos insuficientes” y no lo descuentes. 

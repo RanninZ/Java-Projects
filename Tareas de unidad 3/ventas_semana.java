@@ -27,7 +27,7 @@ public class ventas_semana {
         }
         promedio = total / 7;
         System.out.print("Este es el total: $" + total + " ,el promedio "+ promedio + ", y se superaron los $1000 " + dias +" dias");
-
+        s.close();
 
     }
 }

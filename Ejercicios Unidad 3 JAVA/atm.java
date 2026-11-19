@@ -29,7 +29,7 @@ public class atm{
                 }
                 JOptionPane.showMessageDialog(null, "Tu saldo total es de: "+a, "ATM", JOptionPane.QUESTION_MESSAGE);
             }
-        }
+        } // Fin del ciclo
         
-    }
-}
+    } // Fin del metodo
+} // Fin del programa

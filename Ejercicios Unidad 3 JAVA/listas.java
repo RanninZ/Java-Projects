@@ -36,6 +36,6 @@ public class listas { // Iniciamos el programa
         } else { // Si son iguales
             System.out.println("Las 2 listas son iguales."); // Salida
         }
-        e.close();
-    }
-}
+        e.close(); // Cierre de la variable de la lectura
+    } // Fin del metodo
+} // Fin del programa

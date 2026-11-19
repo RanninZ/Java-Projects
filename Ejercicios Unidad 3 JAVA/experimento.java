@@ -36,9 +36,9 @@ public class experimento { // Iniciamos el programa
             System.out.println("La segunda lista es mayor."); // Salida
         } else { // Si son iguales
             System.out.println("Las 2 listas son iguales."); // Salida
-        }
-        System.out.println(ta_str);
-        e.close();
-    }
+        } // Fin de la condicion
+        System.out.println(ta_str); // Salida final
+        e.close(); // Cierre de la variable de escaner
+    } // Fin del metodo
     
-}
+} // Fin del programa

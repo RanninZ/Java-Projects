@@ -8,6 +8,6 @@ public class multiplos { // Iniciamos el programa
         while(a<=500){ // Mientras la variables sea igual o menor a 500
             System.out.print(a+", ");  // Salida
             a = a + 8; // Proceso
-        }
-    }
-}
+        } // Fin del ciclo
+    } // Fin del metodo
+} // Fin del programa

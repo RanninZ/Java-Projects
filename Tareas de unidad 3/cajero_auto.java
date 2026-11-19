@@ -44,6 +44,6 @@ public class cajero_auto {
         //La salida de los datos.
         System.out.print("-----Cajero Automatico------ \n Billetes de 500: "+b500 + "\nBilletes de 200: "+b200+"\nBilletes de 100: "+b100+"\nBilletes de 50: "+b50+ "\nBilletes de 20: "+b20+"\n EL restante que no puede dar en billetes es de: "+resto);
         
-        
-    }
-}
+        e.close(); // Cierre de la variable de lectura
+    } // Fin del metodo
+} // Fin del programa
