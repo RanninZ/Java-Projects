@@ -23,6 +23,6 @@ public class nummayor_ej {
         }else{
             System.out.print("El numero mayor es: "+num3);
         } 
-            
+        e.close();
     }
 }

@@ -21,6 +21,7 @@ public class papeleria {
         total = hojas*precio;
 
         System.out.print("El precio total es: $"+total);
+        a.close();
     }
     
 }

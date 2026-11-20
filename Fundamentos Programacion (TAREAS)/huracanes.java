@@ -21,6 +21,6 @@ public class huracanes { // Inicio del programa
         } else{ // Ultima opcion
             System.out.print("Huracán"); // Salida
         }
-
+        e.close();
     } // Fin del metodo
 } // Fin del programa

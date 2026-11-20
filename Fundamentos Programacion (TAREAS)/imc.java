@@ -23,5 +23,6 @@ public class imc { // Inicio del programa
         } else{
             System.out.print("Obesidad."); // Salida
         }
+        e.close();
     } // Fin del metodo
 } // Fin del programa

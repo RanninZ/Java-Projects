@@ -15,5 +15,6 @@ public class edad1 {
         nombre = e.nextLine();
 
         System.out.print("Hola "+ nombre + " tienes "+ edad + " años");
+        e.close();
     }
 }

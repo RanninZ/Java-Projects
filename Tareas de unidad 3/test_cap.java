@@ -29,7 +29,7 @@ public class test_cap { // Crear el archivo.
         }else if (porcent < 50){ // Ultima conidicional
             System.out.print("Estas fuera de nivel."); // Salida
         }
-
+        e.close();
         
     }
 }

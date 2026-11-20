@@ -29,7 +29,7 @@ public class inter_var {  // Inicio de la clase.
         System.out.print("\nEstos son los valores intercambiados: \n A= " +a +"\n B= "+b); // Salida despues del proceso.
 
         
-
+        e.close();
         
     }
 }

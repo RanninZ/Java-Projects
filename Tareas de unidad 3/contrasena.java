@@ -29,5 +29,6 @@ public class contrasena {
         
 
         System.out.print("Contraseña correcta.");
+        e.close();
     }
 }

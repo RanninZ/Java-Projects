@@ -29,5 +29,6 @@ public class sueldos {
 
         }
         System.out.print(b+ " Tienen sueldo base " + a + " tienen sueldo alto, la cantidad total que se gasto la empresa es: $" + suma);
+        cS.close();
     }   
 }

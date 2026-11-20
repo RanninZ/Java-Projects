@@ -23,5 +23,6 @@ public class numayor { // Creamos la clase.
                 }
             }
         }
+        e.close();
     }
 }

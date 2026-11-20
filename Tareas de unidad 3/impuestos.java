@@ -12,5 +12,6 @@ public class impuestos { // Creamos la clase.
         if (sueldo>3000){ // Condicional donde se indica si el sueldo que se ingreso es mayor a 3000.
             System.out.print("Debes abonar impuestos."); // Salida final con el resultado.
         }
+        e.close();
     }
 }

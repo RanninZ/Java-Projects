@@ -36,6 +36,6 @@ public class menu_bebidas {
             
 
         }
-
+        e.close();
     }
 }

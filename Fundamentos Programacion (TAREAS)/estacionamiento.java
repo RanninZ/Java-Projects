@@ -31,5 +31,6 @@ public class estacionamiento {  // Inicio del programa
             default: // No se ingreso ninguno de los anteriores
                 System.out.print("Error, vehiculo no registrado."); // Salida
         }
+        e.close();
     } // Fin del metodo
 } // Fin del programa

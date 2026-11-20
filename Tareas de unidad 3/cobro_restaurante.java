@@ -21,5 +21,6 @@ public class cobro_restaurante { // Inicio del programa
         consumoPorpersona = cantidadApagar / cantidadPersonas;
 
         System.out.print("Este es el total: $"+cantidadApagar+"Esto es por cada uno: $"+consumoPorpersona);
+        a.close();
     }
 }

@@ -43,6 +43,7 @@ public class contras_varios_us {
         }
 
         System.out.print("En los 4 usuarios: \n"+ bloqueado + " bloqueados\n" + entro + " entraron");
+        e.close();
 
     }
 }

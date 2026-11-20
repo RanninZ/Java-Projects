@@ -14,5 +14,6 @@ public class pos_neg { // Crear archivo.
         } else if (x>0){ // Ultimas
             System.out.print("El numero es positivo"); // Salida.
         }
+        e.close();
     }
 }

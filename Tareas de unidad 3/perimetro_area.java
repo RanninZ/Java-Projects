@@ -19,7 +19,7 @@ public class perimetro_area {
 
         System.out.print("Estos son el area y el perimetro: " + area+"m"+perimetro+"m");
         
-
+        a.close();
         
     }
 

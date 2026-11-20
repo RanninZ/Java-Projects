@@ -18,7 +18,7 @@ public class tipo_de_cambio {
         System.out.print("Cantidad en dolares :$" + dolares);
 
             
-
+        obj.close();
 
     }
 }

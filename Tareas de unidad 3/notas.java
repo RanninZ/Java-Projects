@@ -24,5 +24,6 @@ public class notas { // Creamos el archivo.
         if (prom >= 7){ // Creamos una condicional si el promedio es mayor o igual a 7.
             System.out.print("Promocionando."); // El mensaje que mostrara.
         }
+        e.close();
     }
 }

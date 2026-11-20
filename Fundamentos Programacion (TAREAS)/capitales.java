@@ -27,5 +27,6 @@ public class capitales { // Inicio del programa
             default: // Si se escribe otro pais.
                 System.out.print("Pais no registrado.");
         }
+        e.close();
     } // Fin del metodo
 } // Fin del programa

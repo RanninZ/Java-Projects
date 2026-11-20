@@ -23,6 +23,7 @@ public class descuento {
         pT = pC - d;
 
         System.out.print("Tu pago total de las "+nC+" es de " + pT);
+        a.close();
     }
     
 }
